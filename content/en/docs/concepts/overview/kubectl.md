@@ -14,7 +14,7 @@ card:
 
 {{< glossary_definition prepend="Kubernetes provides a" term_id="kubectl" length="short" >}}
 
-The `kubectl` tool communicates with your cluster through the [Kubernetes API](/docs/concepts/overview/kubernetes-api/).
+The `kubectl` (short for Kubernetes Control) tool communicates with your cluster through the [Kubernetes API](/docs/concepts/overview/kubernetes-api/).
 For configuration, `kubectl` looks for a file named `config` in the `$HOME/.kube` directory.
 You can specify other [kubeconfig](/docs/concepts/configuration/organize-cluster-access-kubeconfig/)
 files by setting the `KUBECONFIG` environment variable or by setting the
